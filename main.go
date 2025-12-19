@@ -370,7 +370,6 @@ func gameCalculator() {
 		for i = 0; i < len(form); i++ {
 			formula += " " + fmt.Sprint(form[i])
 		}
-		fmt.Print("Formulanya: ")
 		fmt.Println(formula)
 		fmt.Println("Maka hasilnya... ")
 		// Ambil angka pertama (type assertion dari interface{} ke float64)
@@ -525,3 +524,4 @@ func gameRPS() {
 		}
 	}
 }
+

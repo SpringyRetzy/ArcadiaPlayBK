@@ -389,6 +389,9 @@ func gameCalculator() {
 				}
 			}
 		}
+		// Pengen nangis saat sadar cara perhitungan ini itu salah wkwk
+		// Harus nya keseluruhan tapi malah kiri ke kanan
+		// Ampuni aku ya guru-guru dan dosen-dosen matematika
 		fmt.Print(result)
 		fmt.Println("\nApakah sudah puas dengan hasilnya?\n1. Ya")
 		curInput = -1
@@ -524,4 +527,5 @@ func gameRPS() {
 		}
 	}
 }
+
 
